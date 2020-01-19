@@ -1,0 +1,63 @@
+/// SIDEBAR
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 4rem;
+    background-image: url('/assets/sidebar-bg.jpg');
+    // background-color: rgb(240, 118, 38);
+
+    &__profilepic{
+        width: 60%;
+        height: auto;
+        border-radius: 50%;
+    }
+}
+.menu-list{
+    list-style: none;
+    padding: 0;
+    width: 60%;
+
+    &__item{
+        font-family: 'Bangers';
+        font-size: 1.4rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        background-color: white;
+        padding-left: 1rem;
+        transform: skewX(-30deg);
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+        div{
+            transform: skewX(30deg);
+        }
+
+        &:hover{
+            background-color: #000;
+            div{
+                color: white;
+            }
+        }
+    }
+}
+
+/// SECTION
+.section{
+
+    &__title{
+        font-family: 'Bangers';
+        text-decoration: underline;
+    }
+
+    &__para{
+        font-family: 'Cabin';
+        font-size: 1.6rem;
+        width: 60%;
+    }
+
+    &__pic{
+        width: 25rem;
+    }
+}

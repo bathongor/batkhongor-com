@@ -1,33 +1,6 @@
-// BASE STYLES
-body{
-  margin: 0;
-  padding: 0;
-  font-size: 1.2rem;
-}
-
-// LAYOUT
-.App {
-  height: 100vh;
-  width: 100%;
-}
-
-#sidebar{
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: rgb(255, 255, 255);
-  width: 20%;
-  height: 100%;
-  transition: transform 0.5s ease-in-out;
-}
-
-#main{
-  background-color: rgb(71, 241, 94);
-  height: 100%;
-}
 
 // BURGER MENU
-  #hamburger-menu{
+#hamburger-menu{
     position: absolute;
     top: 1rem;
     left: 1rem;
@@ -40,7 +13,7 @@ body{
    margin-bottom: 5px;
    position: relative;
    
-   background: #cdcdcd;
+   background: #000000;
    border-radius: 3px;
    
    z-index: 1;
@@ -65,7 +38,7 @@ body{
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  background: #ffffff;
 }
 
 .burger-open:first-child
